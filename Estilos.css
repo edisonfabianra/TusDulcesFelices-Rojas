@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+/* font-family: 'Rubik Moonrocks', cursive; */
+
+#titulo{
+    text-decoration: none;
+    font-size: 60px;
+    color: blueviolet;
+    font-family: 'Rubik Moonrocks', cursive;
+    
+    height: 100px;
+    width: auto;
+    text-align: center; 
+    background-image: url(Multimedia/Brownie.jpg);  
+    opacity: 100%;
+}
+
+h2{    
+    display: block;
+    color: green;
+    
+}
+
+#lista1{
+    list-style-type: none;
+    display:inline-block;
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+
+li{
+    display: inline-block;
+    position: relative;
+}
+
+.display{
+    /* background-color: chocolate; */
+    border: yellow 5px solid;
+    height: 30px;
+    width: 450px;
+    width:auto;
+    display: inline-block;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.disph2{
+    border: green 5px solid;
+    height: 30px;
+    width: 450px;
+    display: block;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.Encabezado{
+    height: 120px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.Encabezado--bColor{
+    background-color: chartreuse;
+}
+
+.Encabezado__Barra--Color{
+    color:red;
+}
+.model{
+    height: 200px;
+    /* height: auto; */
+    /* width: 250px; */
+    /* width: auto; */
+    /* background-color: greenyellow; */
+    /* padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    /* padding: 50px 10px 100px 20px; */
+    /* los padding top,right, botton y left se resumen en el padding que va solo, solo que estos indican cada separacion por separado y el padding solo las lleva todas incluidas */
+    /* margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px; */
+    /* margin: 100px 50px 20px 10px; */
+    /* En el caso del margin pasa igual que con el padding, se pueden poner las medidas de cada lado por separado o en un solo margin */
+    /* border-width: 20px;
+    border-style: groove;
+    border-color: #f0f; */
+    /* border: 20px inset #f0f; */
+    /* en border-styke ouede ir: solid, dashed, dotted, double, ridge, inset, outset  */
+    /* border-right: 12px solid rgb(255, 0, 0); */
+    /* overflow: auto; */
+
+
+
+/* strong{
+    background-color:aquamarine;
+    /* display: block; */
+    /* visibility: visible;
+}  */ 
