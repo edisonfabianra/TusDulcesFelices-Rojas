@@ -1,32 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-/* font-family: 'Rubik Moonrocks', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');
+
+
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
-.header{
-    height: 120px;
+
+header{
+    height: 110px;
     width: 100%;
-    background-color: greenyellow;
+    background-color: #52c72a;
+    color: rgb(240, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 1px 1px black;
+}
+
+/* header span{
+    color: #333;
+} */
+
+header i{
+    color: #fff;
+    cursor: pointer;
+    
 }
 
 .logo{
-    float: left;
     color: blueviolet;
     font-size: 40px;
-    padding: 15px;
     font-family: 'Rubik Moonrocks', cursive;
-    margin-left: 35%;
+    
 }
-.logo span{
-    color: #000;
-}
+
 .barra{
-    float: right;
+    float:right;
 }
 .barra ul{
     /* .barra ul hace referencia a los elementos que se encuentren dentro del punto barra que contenga la lista desordenada (ul)   */
@@ -42,117 +55,291 @@ html{
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 main{
-    /* background-image: url(../Img/Brownie.jpg); */
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background-color: rgba(218, 165, 32, 0);
-}
-.main1{
-    background-image: url(img/Brownie.jpg);
+    background-image: url(../imagenes/brownie\ de\ cafe.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .call{
-    color: #fff;
-    width: 100%;
-    height: 7500px;
-    float: right;
-    background-color: rgba(0, 0, 0, 0.533);
-    padding: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* margin-top:  25px;
-    margin-right: 25px;
-    margin-left: 25px; */
-    border: 2px solid greenyellow;
-    
+    color: #333;
+    width: 30%;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.212);
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 3px solid springgreen;
 }
-.call2{
-    color: #fff;
-    width: 100%;
-    float:inline-start;
-    background-color: rgba(0, 0, 0, 0.533);
-    padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* margin-top:  25px; */
-    margin-right: 25px;
-    border: 2px solid greenyellow;
-}
-
-.call2 h1{ 
-    color: greenyellow;
-}
-.call2 h2{ 
-    color: greenyellow;
+.call h1{
+    color: #52c72a;
     font-size: 30px;
-    padding: 10px;
 }
 .call p{
-    margin-bottom: 20px;
-    font-size: 20px;
-    
-
-}
-.call ul{
-    list-style: none;
+    margin-bottom: 30px;
     font-size: 20px;
 }
-
-.titulo{
-    margin: 20px;
-    margin-left: 150px;
-    font-size: 70px;
-}
-
-#contacto{
-    list-style:circle;
-    margin-left: 50px;
-}
-.call a:hover{
-    background-color: #330;
-}
-#botonVolver{
-    margin-left: 50%;
-    background-color: greenyellow;
+.call a{
+    background-color: #52c72a;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
-    color: #fff;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    background-color: #52c72a;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 30px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
     padding: 10px;
-    
+}
+.Nosotros{
+    width: 100%;
+    min-height: 450px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nleft{
+    background-image:url(../imagenes/brownie\ .jpg);
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+
+.nright{
+    width: 100%;
+    min-height: 450px;
+    padding: 30px;
+}
+
+.nright ul{
+    text-align: left;
+    font-family: 'Macondo', cursive;
+}
+
+.nright p{
+    font-family: 'Macondo', cursive;
+    font-weight: 100;
+
+}
+
+
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color:rgb(23, 5, 56) ;
+    padding: 20px;
+    /* min-height: 100vh; */
+}
+
+.item{
+    height: 200px;
+    border: 2px solid #000;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #333;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.item1{
+    background-image: url(../imagenes/alfajor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(../imagenes/brownie\ .jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(../imagenes/brownie\ de\ cafe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(../imagenes/brownie\ oreo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background-image: url(../imagenes/brownie\ oreo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(../imagenes/Galletas\ de\ chips.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-image: url(../imagenes/gomitas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background-image: url(../imagenes/gomitas\ de\ sandia.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 footer{
-    background-color: greenyellow;
-    height: 110px;
-    width: 100%;
+    background-color: #111;
+    color: aliceblue;
     text-align: center;
-    padding: 20px;
 }
 footer p{
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    color: #Fff;
-    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 footer i{
     font-size: 40px;
-    color: #333;
-    letter-spacing: 15px;
- 
+    letter-spacing: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+footer a{
+    color: #52c72a;
+}
+#botonVolver{
+    margin-left: 50%;
+    margin-top: 10px;
+    background-color: #52c72a;
+    text-decoration: none;
+    color: #fff;
+    /* padding: 10px; */
+    
 }
 .subir{
     height: 40px;
     width: 40px;
-    background-color: greenyellow;
+    
     position: fixed;
-    bottom: 40px;
-    right: 20px;
+    bottom: 20px;
+    right: 30px;
     text-align: center;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 40px;
     color: #fff;
-    border: 3px solid #fff;
+    /* border: 3px solid #fff; */
     border-radius: 50%;
     box-shadow: 0 0 5px #fff;
+}
+
+@media only screen and (min-width:345px) and (max-width:599px) {
+    header{
+        height: 140px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .barra ul li a{
+        
+        font-size: 20px;
+        padding: 0px;
+        margin: 5px;
+        
+    }
+    .barra ul li a{
+        font-size: 10px;
+        padding: 10px;        
+    }
+    .call{
+        background-color: rgba(255, 255, 255, 0.729);
+    }
+    .call h1{
+        font-size: 20px;
+    }
+    .call p{
+        font-size: 15px;
+    }
+    .call a{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .galeria{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .Nosotros{
+        flex-wrap: nowrap;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .redes {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:1023px){
+    .logo{
+        font-size: 30px;
+    }
+    .barra ul li a{
+        
+        font-size: 20px;
+        padding: 0px;
+        margin: 5px;
+        font-size: 10px;
+        padding: 10px;  
+        
+    }
+   
+    .galeria{
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .item8{
+        grid-column: 2/4;
+    }
+
+    .Nosotros h3{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:1023px){
+    .logo{
+        font-size: 30px;
+    }
+    .barra ul li a{
+        padding: 0px;
+        margin: 5px;
+        font-size: 15px;
+        padding: 10px;  
+        
+    }
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .Nosotros h3{
+        font-size: 35px;
+    }
 }
