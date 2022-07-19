@@ -4,65 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos.css">
-    <title>Tus dulces felices (E3)</title>
+    <link rel="shortcut icon" href="img/Grafity.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Dulces</title>
 </head>
 <body>
-    
-    <h1  id="titulo">Tus dulces felices</h1>
-    <h2 class="disph2">Nuestros productos</h2>
-    <!--square disc circle-->
-    <ul  id="lista1" type="disc">
-        <!--ul Lista desordenada-->
-        <li><a href="./Pages/Comidas.html" class="display">Comidas</a></li>
-        <li><a href="./Pages/Semillas.html" class="display">Semillas</a></li>                                 
-        <li><a href="./Pages/CultivoFertilizado.html" class="display">Cultivo y Fertilizado</a></li>
-        <li><a href="./Pages/OtrosProductos.html" class="display">Emprende con Nosotros</a></li>
-    </ul>
-    <h2 class="disph2">Para comunicarte con nosotros:</h2>
-    <!--1 a A I i-->
-    <ol type="1">
-        <!--ol Lista ordenada-->
-        <li>Revisa nuestros productos</li>
-        <li>Escoge los que mas te gusten</li>
-        <li>Si tienes alguna duda comunicate con nosotros enviandonos un mensaje dando click <a href="#datos">aqui</a></li> 
-        <li>Compra lo que mas te guste, no olvides el 10% de descuento en tu primera compra</li> 
-        <li>Comparte tu experiencia con tus amigos y danos un like</li> 
-
-    </ol>
-    <h2 class="disph2">Lista de definicion</h2>
-    <dl>
-        <!--dl Lista de definicion-->
-        <dt>¿Quienes somos?</dt>
-        <!--dt Termino de definicion-->
-        <dd>Somos una empresa dedicada a alegrar tus momentos gracias a nuestra comida feliz</dd>
-        <!--dd Definicion del termino-->
-        <dt>¿Donde nace nuestra idea?</dt>
-        <dd>Basandonos en los altos niveles de estres que vemos en el diario vivir de la gente decidimos dar una opcion de relajacion y alimentacion que volviera mas llevadero el ritmo de vida de las personas dando un toque relajamte a sus Comidas</dd>
-    </dl> 
-
-    <h2 id="datos" class="disph2">Envianos tus dudas y comentarios </h2>
-    <from action="" methos="post" enctype="text/plain">
-        <label for="Nombre">Ingresa tu Nombre:</label>
-        <input name="Nombre" type="text"><br>
-        
-        <label for="Correo">Ingresa tu Correo electronico:</label>
-        <input name="Correo" type="mail"><br>
-        <label for="Telefono">Dejanos tu numero de telefono</label>
-        <input name="Telefono" type="number"><br>
-        <label for="Comentarios">Cuentanos tu duda o comentario:</label><br>
-        <textarea name="Comentarios" id="" cols="30" rows="5"></textarea><br>
-        <!--cols Define numero de Columnas y rows Define numero de filas Encabezados (en negrita y centrados)-->
-        <!--br Salto de linea-->
-        <input type="button" value="Enviar">
-        <input type="submit" value="Enviar a correo">
-        <input type="reset" value="Borrar">
-        
-    </from>
-    <h2 class="disph2">Vende nuestros productos</h2>
-    <p>Si deseas vender nustros productos puedes hacerlo dando click <a href="./Pages/Vende.html">aqui</a> </p>
-    
-    <h2 class="disph2">Multimedia</h2>
-    <img src="Multimedia/Grafity.jpg" alt="Grafity"> 
+    <header class="header">
+        <div class="logo">Tus Dulces Felices</div>
+        <nav class="barra">
+            <ul>
+                <li><a href="./Pages/Comidas.html" class="display">Comidas</a></li>
+                <li><a href="./Pages/Semillas.html" class="display">Semillas</a></li>                                 
+                <li><a href="./Pages/CultivoFertilizado.html" class="display">Cultivo y Fertilizado</a></li>
+                <li><a href="./Pages/OtrosProductos.html" class="display">Emprende con Nosotros</a></li>              
+            </ul>
+        </nav>
+    </header>
+    <main class="main1">
+        <div class="call">
+            <h1>Te damos la bienvenida a tus dulces felces</h1>
+            <p>EL alimento de tu felicidad</p>
+            <!-- <a href="#">Ver mas</a> -->
+        </div>
+    </main>
+    <h2 id="sec1">¿Quienes somos?</h2>
+    <section class="sec sect1">  
+    <p>Somos una empresa dedicada a alegrar tus momentos gracias a nuestra comida feliz</p>    
+    </section>
+    <h2 id="sec2">¿Donde nace nuestra idea?</h2>
+    <section class="sec sec2">
+    <p>Basandonos en los altos niveles de estres que vemos en el diario vivir de la gente decidimos dar una opcion de relajacion y alimentacion que volviera mas llevadero el ritmo de vida de las personas dando un toque relajamte a sus Comidas</p>   
+    </section>
+    <!-- <h2 id="sec3">Mi Titulo3</h2>
+    <section class="sec sec3"></section>
+    <h2 id="sec4">Mi Titulo4</h2>
+    <section class="sec sec4"></section>
+    <h2 id="sec5">Mi Titulo5</h2>
+    <section class="sec sec5"></section>     -->
+    <h2 id="formulario">Suscribete y nos pondremos en contacto </h2>
+    <main class="main2">
+        <div class="call2">
+            <h1>Suscribete y recibiras las mejores ofertas:</h1>
+            <p>Recibiras noticias, promociones, consejos y mucho mas.</p>
+            <!-- <a href="#">Ver mas</a> -->
+            <label for="Correo"></label>
+            <input name="Correo" type="mail" placeholder="Email">
+            <!-- <a href="#" class="call">Ver mas</a> -->
+            <input type="button" value="Suscribirse">
+        </div>
+    </main>
+   
+    <footer>
+        <p>Todos los derechos reservados por CopyRight </p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <!-- Patra vincular redes se entra a cdnjs.con, se busca font-awesome y se copia el primer link en el head antes del link de estilos.css
+            luego se entra a fontwesome.com, se busca el icono que nos guste y se copia el link dentro del div -->
+        </div>
+    </footer> 
+    <a href="#" class="subir">
+        <i class="fa-solid fa-angle-up"></i>
+    </a> 
 </body>
 </html>

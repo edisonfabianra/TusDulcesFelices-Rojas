@@ -26,7 +26,7 @@ html{
     color: #000;
 }
 .barra{
-    float:right;
+    float: right;
 }
 .barra ul{
     /* .barra ul hace referencia a los elementos que se encuentren dentro del punto barra que contenga la lista desordenada (ul)   */
@@ -43,89 +43,31 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main{
-    /* background-image: url(img/Brownie.jpg); */
+    /* background-image: url(../Img/Brownie.jpg); */
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 800px;
     width: 100%;
+    background-color: rgba(218, 165, 32, 0);
 }
 .main1{
     background-image: url(img/Brownie.jpg);
-    height: 200px;
 }
+
 .call{
     color: #fff;
-    width: 95%;
+    width: 100%;
+    height: 7500px;
     float: right;
     background-color: rgba(0, 0, 0, 0.533);
-    padding: 20px;
+    padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top:  25px;
+    /* margin-top:  25px;
     margin-right: 25px;
+    margin-left: 25px; */
     border: 2px solid greenyellow;
-}
-.call h1{ 
-    color: greenyellow;
-}
-.call p{
-    margin-bottom: 20px;
-}
-.call a{
-    background-color: greenyellow;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-}
-.call a:hover{
-    background-color: #330;
-}
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: greenyellow;
-    color: #fff;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 10px;
-}
-section{
-    height: 150px;
-    width: 100%;
-    background-color: rgba(51, 51, 51, 0.464);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-section p{
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    background-color: rgba(51, 51, 51, 0.106);
     
 }
-
-.item{
-    height: 120px;
-    width: 120px;   background-color: greenyellow;
-    border: 2px solid white;
-}
-.item2{
-    line-height: 200px;
-    flex-basis: 120px;
-}
-.item4{
-    line-height: 40px;
-}
-.main div{
-    background-color: rgba(51, 51, 51, 0.073);
-    width: 100%;
-}
-
 .call2{
     color: #fff;
     width: 100%;
@@ -137,6 +79,48 @@ section p{
     margin-right: 25px;
     border: 2px solid greenyellow;
 }
+
+.call2 h1{ 
+    color: greenyellow;
+}
+.call2 h2{ 
+    color: greenyellow;
+    font-size: 30px;
+    padding: 10px;
+}
+.call p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+
+}
+.call ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+.titulo{
+    margin: 20px;
+    margin-left: 150px;
+    font-size: 70px;
+}
+
+#contacto{
+    list-style:circle;
+    margin-left: 50px;
+}
+.call a:hover{
+    background-color: #330;
+}
+#botonVolver{
+    margin-left: 50%;
+    background-color: greenyellow;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
+}
+
 footer{
     background-color: greenyellow;
     height: 110px;
@@ -155,6 +139,7 @@ footer i{
     font-size: 40px;
     color: #333;
     letter-spacing: 15px;
+ 
 }
 .subir{
     height: 40px;
