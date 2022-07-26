@@ -137,7 +137,12 @@ h2{
 
 }
 
-
+article{
+    background-color: rgb(14, 21, 61);
+    }
+h3{
+    color: aliceblue;
+}
 .galeria{
     width: 100%;
     height: auto;
