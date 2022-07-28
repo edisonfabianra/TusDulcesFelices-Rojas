@@ -11,7 +11,8 @@
 header{
     height: 110px;
     width: 100%;
-    background-color: #52c72a;
+    background-color: greenyellow;
+    background-image: linear-gradient(greenyellow,rgb(169, 247, 118));
     color: rgb(240, 229, 229);
     display: flex;
     justify-content: space-between;
@@ -54,6 +55,35 @@ header i{
     font-size: 20px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+}
+
+#comida{
+    transition: all 0.5s;
+}
+#comida:hover{
+    font-size: 30px;
+}
+
+#semillas{
+    transition: all 0.5s;
+}
+#semillas:hover{
+    font-size: 30px;
+}
+
+#cultivo{
+    transition: all 0.5s;
+}
+#cultivo:hover{
+    font-size: 30px;
+}
+
+#emprende{
+    transition: all 0.5s;
+}
+#emprende:hover{
+    font-size: 30px;
 }
 
 main{
@@ -78,7 +108,7 @@ main{
     border: 3px solid springgreen;
 }
 .call h1{
-    color: #52c72a;
+    color: greenyellow;
     font-size: 30px;
 }
 .call p{
@@ -86,7 +116,7 @@ main{
     font-size: 20px;
 }
 .call a{
-    background-color: #52c72a;
+    background-color:greenyellow;
     color: #333;
     padding: 10px 20px;
     border-radius: 5px;
@@ -96,7 +126,7 @@ main{
 
 h2{
     text-align: center;
-    background-color: #52c72a;
+    background-color: greenyellow;
     font-family: 'Raleway', sans-serif; 
     font-size: 30px;
     color: aliceblue;
@@ -218,16 +248,21 @@ footer i{
     padding: 20px;
 }
 footer a{
-    color: #52c72a;
+    color: greenyellow;
 }
 #botonVolver{
     margin-left: 50%;
-    margin-top: 10px;
-    background-color: #52c72a;
+    margin-top: 1px;
+    background-color:greenyellow;
     text-decoration: none;
     color: #fff;
-    /* padding: 10px; */
-    
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+#botonVolver:hover{
+    font-size: 40px;
 }
 .subir{
     height: 40px;

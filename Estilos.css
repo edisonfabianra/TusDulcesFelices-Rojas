@@ -49,14 +49,47 @@ header i{
 }
 .barra ul li{
     display: inline-block;
+    
 }
 .barra ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 400px;
+    padding: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    transition: all 2s;
+    
 }
+
+#comida{
+    transition: all 0.5s;
+}
+#comida:hover{
+    font-size: 30px;
+}
+
+#semillas{
+    transition: all 0.5s;
+}
+#semillas:hover{
+    font-size: 30px;
+}
+
+#cultivo{
+    transition: all 0.5s;
+}
+#cultivo:hover{
+    font-size: 30px;
+}
+
+#emprende{
+    transition: all 0.5s;
+}
+#emprende:hover{
+    font-size: 30px;
+}
+
 
 main{
     height: 600px;
@@ -94,6 +127,12 @@ main{
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
+}
+#mas_info{
+    transition: all 0.5s;
+}
+#mas_info:hover{
+    font-size: 30px;
 }
 
 h2{
@@ -221,6 +260,22 @@ footer i{
 }
 footer a{
     color: rgb(255, 255, 255);
+}
+
+#insta{
+    transition: all 0.5s;
+}
+#insta:hover{
+    font-size: 60px;
+}
+
+input{
+    transition: all 1s;
+}
+input:focus{
+    font-size: 60px;
+    border: 5px dotted black;
+    color:#333;
 }
 
 @media only screen and (min-width:345px) and (max-width:599px) {
